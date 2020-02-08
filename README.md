@@ -6,7 +6,7 @@ Protect an MDX deck from invaders 👾
 
 Uses https://paassword.now.sh to safely store your password and then allows a static site to check against it at will.
 
-## Instalation
+## Installation
 
 `yarn add protect-a-deck`
 
@@ -36,3 +36,9 @@ export default props => {
   )
 }
 ```
+
+## Running the example
+
+`yarn present` or `npm run present`
+
+> the password for the example is `dev.to`

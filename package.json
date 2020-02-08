@@ -2,9 +2,6 @@
   "name": "protect-a-deck",
   "version": "0.0.1",
   "main": "dist/index.js",
-  "publishConfig": {
-    "access": "restricted"
-  },
   "peerDependencies": {
     "react": ">=15.0.1",
     "react-dom": ">=15.0.1"

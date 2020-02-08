@@ -1,0 +1,29 @@
+{
+  "name": "protect-a-deck",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "peerDependencies": {
+    "react": ">=15.0.1",
+    "react-dom": ">=15.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "react": ">=15.0.1",
+    "react-dom": ">=15.0.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "prepublish": "rm -rf ./dist && yarn build",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "unfetch": "^4.1.0"
+  }
+}

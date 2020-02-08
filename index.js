@@ -20,7 +20,7 @@ export default props => {
     } catch (error) {
       console.error(error);
     }
-  }, [state.index]);
+  }, [props.deckState.index]);
 
   const onSubmit = async () => {
     if (!pwd || pwd.length < 1) return;

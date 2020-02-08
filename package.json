@@ -14,6 +14,9 @@
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
+    "gatsby-link": "^2.2.29",
+    "gatsby-react-router-scroll": "^2.1.21",
+    "mdx-deck": "^3.0.13",
     "react": ">=15.0.1",
     "react-dom": ">=15.0.1",
     "webpack": "^4.41.5",
@@ -21,9 +24,14 @@
   },
   "scripts": {
     "prepublish": "rm -rf ./dist && yarn build",
-    "build": "webpack"
+    "build": "webpack",
+    "present": "mdx-deck ./example/deck.mdx"
   },
   "dependencies": {
     "unfetch": "^4.1.0"
+  },
+  "resolutions": {
+    "mdx-deck/gatsby": "2.18.4",
+    "mdx-deck/gatsby-plugin-compile-es6-packages": "2.1.0"
   }
 }

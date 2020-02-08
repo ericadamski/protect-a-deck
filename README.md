@@ -33,7 +33,7 @@ export default props => {
   const state = useDeck()
 
   return (
-    <Protection paassword="rec3T73O3WNZk3IZj">
+    <Protection paassword="rec3T73O3WNZk3IZj" deckState={state}>
       {props.children}
     </Protection>
   )

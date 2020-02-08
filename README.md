@@ -2,6 +2,9 @@
 
 Protect an MDX deck from invaders 👾
 
+![example of a protected deck](https://user-images.githubusercontent.com/6516758/74079437-79625200-4a05-11ea-9c65-5f7caf7cd6d3.png)
+
+
 ---
 
 Uses https://paassword.now.sh to safely store your password and then allows a static site to check against it at will.
